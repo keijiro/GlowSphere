@@ -151,7 +151,7 @@ Material:
       data:
         first:
           name: _Emission
-        second: {r: .974911809, g: 1.00969386, b: 1.04400003, a: 1}
+        second: {r: 1.09350777, g: 1.13252044, b: 1.171, a: 1}
       data:
         first:
           name: _Alpha
@@ -163,4 +163,4 @@ Material:
       data:
         first:
           name: _Gamma
-        second: {r: 1, g: 5.78900003, b: 5.19999981, a: 1}
+        second: {r: 1, g: 2.78900003, b: 3.21000004, a: 1}
