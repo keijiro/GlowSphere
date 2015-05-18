@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: .0469999984, g: .0430000015, b: .0350000001, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 341a5569f9c044df788e7fa88087f54a, type: 2}
   m_HaloStrength: .5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -99,6 +99,7 @@ GameObject:
   - 92: {fileID: 408507563}
   - 124: {fileID: 408507562}
   - 81: {fileID: 408507561}
+  - 114: {fileID: 408507566}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -159,6 +160,7 @@ Camera:
   m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
+  m_StereoMirrorMode: 0
 --- !u!4 &408507565
 Transform:
   m_ObjectHideFlags: 0
@@ -171,6 +173,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &408507566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 408507560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffd37938bd1d34558a64a40ff7419815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweakMode: 1
+  Threshold: .5
+  MasterAmount: .200000003
+  MediumAmount: 2
+  LargeAmount: 1
+  Tint: {r: 1, g: 1, b: 1, a: 1}
+  KernelSize: 50
+  MediumKernelScale: 1
+  LargeKernelScale: 5
+  BlendMode: 0
+  HighQuality: 1
+  videoBloomShader: {fileID: 4800000, guid: 4da5120001c1945e99d8db7be2c8c652, type: 3}
 --- !u!1 &473376777
 GameObject:
   m_ObjectHideFlags: 0
