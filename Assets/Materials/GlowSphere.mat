@@ -90,7 +90,7 @@ Material:
       data:
         first:
           name: _Cutoff
-        second: .5
+        second: .200000003
       data:
         first:
           name: _Parallax
@@ -151,7 +151,7 @@ Material:
       data:
         first:
           name: _Emission
-        second: {r: 1.09350777, g: 1.13252044, b: 1.171, a: 1}
+        second: {r: .450103104, g: .466161281, b: .481999993, a: 1}
       data:
         first:
           name: _Alpha

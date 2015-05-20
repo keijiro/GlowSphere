@@ -137,7 +137,7 @@ public class VideoBloom : PostEffectsBase
 
 	}
 
-	[ImageEffectOpaque]
+	//[ImageEffectOpaque]
 	void OnRenderImage (RenderTexture source, RenderTexture destination)
 	{
 
